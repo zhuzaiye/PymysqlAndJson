@@ -55,11 +55,11 @@ Insert_school_branch = '''INSERT INTO school_resource_auth (school_id, {field}) 
 
 
 # connect mysql database
-host = "52.83.132.4"
-port = 3307
-user = "elst"
-password = "xjsyft3^$2gc"
-database = "elst2017dev"
+host = ""
+port = 
+user = ""
+password = ""
+database = ""
 
 DB = pymysql.connect(host=host, port=port, user=user, password=password, db=database, use_unicode=True, charset="utf8")
 
